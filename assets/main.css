@@ -1,0 +1,113 @@
+body {
+	background-color:#eeeeff;
+	
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:#eeeeff;
+  font-family: sans-serif;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.project {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.project .projbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .project:hover .projbtn {
+  background-color: #C5BFD3;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+	font-size:40pt;
+	color:white;
+	font-family: sans-serif;
+	border-color: black;
+	text-align: center;
+	-webkit-text-stroke: 1px ;
+
+}
+
+h2{
+	font-size:30pt;
+	color:#C5BFD3;
+	font-family: sans-serif;
+	-webkit-text-stroke: 1px ;
+	margin-left:20px;
+}
+
+p{
+	font-family: sans-serif;
+	font-size:20pt;
+	margin-left:25px;
+	color:white;
+
+}
+
+a{
+font-kerning: 2
+color:white;
+
+}
+
+img.icon{
+	width: 70pt;
+	margin-left:2px;
+	
+}
