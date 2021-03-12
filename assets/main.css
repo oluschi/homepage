@@ -1,0 +1,205 @@
+body {
+	background-color:#eeeeff;
+	
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color:#eeeeff;
+  font-family: sans-serif;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Studio Button */
+.studio {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.studio .studiobtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .studio:hover .studiobtn {
+  background-color: #C5BFD3;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #AF99DA;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.studio:hover .dropdown-content {
+  display: block;
+
+}
+
+
+/* Lab Button */
+.lab {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.lab .labbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .lab:hover .labbtn {
+  background-color: #C5BFD3;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown2-content a {
+  float: none;
+  color: #AF99DA;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown2-content a:hover {
+  background-color: #ddd;
+}
+
+
+.lab:hover .dropdown2-content {
+  display: block;
+
+}
+
+
+h1{
+	font-size:40pt;
+	color:white;
+	font-family: sans-serif;
+	border-color: black;
+	text-align: center;
+	-webkit-text-stroke: 1px ;
+	-webkit-text-stroke:#AF99DA  1px ;
+
+}
+
+.style1 {
+  position:relative;
+  background-color: #D9B8E1;
+  font-size: 28px;
+  color: blue;
+  padding: 30px;
+  margin: 16px;
+  transform: rotate(3deg);
+  font-family: 'Permanent Marker', cursive;
+  font-weight:bold;
+}
+
+.style2 {
+  background-color: #9DC183;
+  font-size: 28px;
+  color: white;
+  padding: 16px;
+  margin: 8px;
+  font-family: 'Josefin Sans'
+}
+
+.style3 {
+  background-color: #EEADBD;
+  font-size: 28px;
+  color: black;
+  padding: 16px;
+  margin: 8px;
+  font-family:'Potta One'
+}
+
+.style4 {
+  background-color: #ADC3EE;
+  font-size: 28px;
+  color: #A27858;
+  padding: 8px;
+  margin: 4px;
+}
+
+h2{
+	font-size:30pt;
+	color:#C5BFD3;
+	font-family: sans-serif;
+	-webkit-text-stroke:#AF99DA 1px ;
+	margin-left:20px;
+}
+
+p{
+	text-align: center;
+}
+
+a{
+font-kerning: 2
+color:white;
+
+}
+
+img.icon{
+	width: 70pt;
+	margin-left:2px;
+	
+}
